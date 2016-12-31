@@ -1,0 +1,17 @@
+var _user$project$Main$renderDog = function (dog) {
+	return A2(
+		_elm_lang$core$Basics_ops['++'],
+		dog.name,
+		A2(
+			_elm_lang$core$Basics_ops['++'],
+			', ',
+			_elm_lang$core$Basics$toString(dog.age)));
+};
+var _user$project$Main$dog = {name: 'Grizzly', age: 8};
+var _user$project$Main$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgram(
+	_elm_lang$html$Html$text(
+		_user$project$Main$renderDog(_user$project$Main$dog)));
+var _user$project$Main$Dog = F2(
+	function (a, b) {
+		return {name: a, age: b};
+	});
