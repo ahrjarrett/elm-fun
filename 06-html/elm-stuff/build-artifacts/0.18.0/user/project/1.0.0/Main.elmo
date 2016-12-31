@@ -48,7 +48,7 @@ var _user$project$Main$renderShips = function (ships) {
 				{ctor: '[]'},
 				{
 					ctor: '::',
-					_0: _elm_lang$html$Html$text('Ships'),
+					_0: _elm_lang$html$Html$text('Our Vehicles'),
 					_1: {ctor: '[]'}
 				}),
 			_1: {
@@ -66,7 +66,7 @@ var _user$project$Main$ships = {
 	_0: {name: 'Honda', cost: 151151},
 	_1: {
 		ctor: '::',
-		_0: {name: 'Civic', cost: 23333},
+		_0: {name: 'Camry', cost: 23333},
 		_1: {
 			ctor: '::',
 			_0: {name: 'RV', cost: 1000000},
