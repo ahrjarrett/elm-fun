@@ -8,3 +8,5 @@
 - 07: function reuse using variables in Type definition
 - 08: implemented beginnerProgram using MVC
 - 09: imported elm package for String methods
+
+Don't forget: [video for syntax highlighting in Vim](https://vimeo.com/132107269)
