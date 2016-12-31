@@ -1,0 +1,47 @@
+var _user$project$Main$update = F2(
+	function (msg, model_) {
+		var _p0 = msg;
+		return _elm_lang$core$Native_Utils.update(
+			model_,
+			{showFace: true});
+	});
+var _user$project$Main$model = {showFace: false};
+var _user$project$Main$ShowFace = {ctor: 'ShowFace'};
+var _user$project$Main$view = function (model_) {
+	return A2(
+		_elm_lang$html$Html$div,
+		{ctor: '[]'},
+		{
+			ctor: '::',
+			_0: A2(
+				_elm_lang$html$Html$h1,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text('face generator'),
+					_1: {ctor: '[]'}
+				}),
+			_1: {
+				ctor: '::',
+				_0: A2(
+					_elm_lang$html$Html$button,
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html_Events$onClick(_user$project$Main$ShowFace),
+						_1: {ctor: '[]'}
+					},
+					{
+						ctor: '::',
+						_0: _elm_lang$html$Html$text('face me'),
+						_1: {ctor: '[]'}
+					}),
+				_1: {
+					ctor: '::',
+					_0: model_.showFace ? _elm_lang$html$Html$text('( ͡° ͜ʖ ͡°)') : _elm_lang$html$Html$text(''),
+					_1: {ctor: '[]'}
+				}
+			}
+		});
+};
+var _user$project$Main$main = _elm_lang$html$Html$beginnerProgram(
+	{model: _user$project$Main$model, update: _user$project$Main$update, view: _user$project$Main$view})();
