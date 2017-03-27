@@ -4,7 +4,7 @@
 module Main exposing (..)
 
 import Html exposing (..)
-import String.Extra exposing (pluralize)
+-- import String.Extra exposing (pluralize)
 
 
 items =
@@ -13,7 +13,6 @@ items =
 main =
   div []
       [ h1 [] [
-        text <| (pluralize "Item" "Items" (List.length items))  ]
-      , text <| toString <| items
+        text <| toString <| items
       ]
 
